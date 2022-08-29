@@ -1,5 +1,3 @@
-package it.pers.raza;
-
 import java.util.concurrent.TimeUnit;
 
 public class MoveZeros {
