@@ -1,3 +1,5 @@
+package it.pers.raza.tree;
+
 public class FirstLoop {
     public static void main(String[] args) {
         //先序遍历

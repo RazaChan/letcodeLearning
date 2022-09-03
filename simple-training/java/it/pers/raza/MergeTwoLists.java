@@ -1,5 +1,7 @@
 package it.pers.raza;
 
+import it.pers.raza.common.ListNode;
+
 public class MergeTwoLists {
 /**
  * 将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
@@ -15,7 +17,7 @@ public class MergeTwoLists {
      * }
      */
     public static void main(String[] args) {
-        ListNode listNode1= new ListNode(1, new ListNode(2, new ListNode(4)));
+        ListNode listNode1 = new ListNode(1, new ListNode(2, new ListNode(4)));
         ListNode listNode2 = new ListNode(1, new ListNode(3, new ListNode(4)));
         ListNode listNode = mergeTwoLists(listNode1, listNode2);
         System.out.println(listNode);
@@ -42,23 +44,5 @@ public class MergeTwoLists {
             p.next = p2;
         }
         return dummy.next;
-    }
-
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }

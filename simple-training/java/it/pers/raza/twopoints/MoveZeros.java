@@ -1,3 +1,5 @@
+package it.pers.raza.twopoints;
+
 import java.util.concurrent.TimeUnit;
 
 public class MoveZeros {
