@@ -1,5 +1,7 @@
 package it.pers.raza.twopoints;
 
+import it.pers.raza.common.ListNode;
+
 public class RemoveNthFromEnd {
     /**
      * 输入：head = [1,2,3,4,5], n = 2
@@ -32,7 +34,10 @@ public class RemoveNthFromEnd {
         ListNode listNode = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
         traverse(listNode, 2);
 //        listNode = removeNthFromEnd(listNode, 2);
-        System.out.println(listNode);
+
+        String s = "abc";
+        System.out.println(s.substring(0,2));
+//        System.out.println(listNode);
     }
 
     /**

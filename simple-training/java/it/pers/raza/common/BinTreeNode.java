@@ -8,11 +8,11 @@ package it.pers.raza.common;
 
 public class BinTreeNode<Character> {
 
-    char val;
+    public char val;
     public BinTreeNode<Character> lchild;
     public BinTreeNode<Character> rchild;//树的左孩子，右孩子
 
-    BinTreeNode(char val, BinTreeNode<Character> lchild, BinTreeNode<Character> rchild) {
+    public BinTreeNode(char val, BinTreeNode<Character> lchild, BinTreeNode<Character> rchild) {
         this.val = val;
         this.lchild = lchild;
         this.rchild = rchild;

@@ -1,5 +1,7 @@
 package it.pers.raza;
 
+import it.pers.raza.tree.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -18,7 +20,7 @@ public class LevelOrderTraversal {
         queue.offer(root);
         while (!queue.isEmpty()) {
             int count = queue.size();
-            for (int i = 0; i < count; i++) {   
+            for (int i = 0; i < count; i++) {
                 TreeNode poll = queue.poll();
                 if (poll.left != null) {
                     queue.offer(poll.left);
