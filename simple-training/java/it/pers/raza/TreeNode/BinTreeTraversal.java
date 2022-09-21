@@ -1,4 +1,4 @@
-package it.pers.raza;
+package it.pers.raza.TreeNode;
 
 import it.pers.raza.common.BinTreeNode;
 

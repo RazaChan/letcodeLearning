@@ -13,6 +13,12 @@ public class TreeNode {
         val = _val;
     }
 
+    public TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+
     public TreeNode(int _val, TreeNode _left, TreeNode _right, TreeNode _next) {
         val = _val;
         left = _left;

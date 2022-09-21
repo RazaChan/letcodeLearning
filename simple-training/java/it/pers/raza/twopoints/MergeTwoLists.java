@@ -1,4 +1,4 @@
-package it.pers.raza;
+package it.pers.raza.twopoints;
 
 import it.pers.raza.common.ListNode;
 
